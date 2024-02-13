@@ -1,0 +1,18 @@
+{
+	"animations": [
+		["idle", "idle", [], 24, false, [10, 80]],
+		["singLEFT", "singLEFT", [], 24, false, [28, -19]],
+		["singUP", "singUP", [], 24, false, [-69, 113]],
+		["singDOWN", "singDOWN", [], 24, false, [-15, -19]],
+		["singRIGHT", "singRIGHT", [], 24, false, [-63, -16]]
+	],
+	"position": [30, 280],
+	"camera_points": [30, 60],
+	"flip_x": false,
+	"icon": "boobs",
+	"color": "#FFFFFF",
+	"sprite": "characters/bigboobs",
+	"antialiasing": true,
+	"sing_duration": 6.1,
+	"scale": 1
+}
