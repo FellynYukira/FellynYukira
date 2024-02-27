@@ -1,0 +1,9 @@
+{
+    "name": "Chiyo",
+    "bpm": 170,
+    "icon": "chiyo",
+	"color": "#DB8645",
+    "difficulties": [
+        "Normal"
+    ]
+}

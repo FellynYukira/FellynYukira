@@ -1,0 +1,16 @@
+{
+	"animations": [
+		["idle", "Idle", [], 24, false, [-50, -20]],
+		["danceLeft", "Idle", [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 24, false, [-50, -20]],
+		["danceRight", "Idle", [10, 11, 12, 13, 14, 15, 16, 17, 18, 19], 24, false, [-50, -20]]
+	],
+	"position": [40, 110],
+	"camera_points": [0, 0],
+	"flip_x": false,
+	"icon": "gf",
+	"color": "#A5004D",
+	"sprite": "characters/azugf",
+    "antialiasing": true,
+	"sing_duration": 4,
+	"scale": 0.9
+}

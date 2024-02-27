@@ -1,0 +1,18 @@
+{
+	"animations": [
+		["idle", "tomo idle", [], 24, false, [0, 0]],
+		["singLEFT", "tomo left", [], 24, false, [44, -20]],
+		["singDOWN", "tomo down", [], 24, false, [-10, -99]],
+		["singUP", "tomo up", [], 24, false, [-16, 1]],
+		["singRIGHT", "tomo right", [], 24, false, [3, 1]]
+	],
+	"position": [0, 120],
+	"camera_points": [20, 60],
+	"flip_x": false,
+	"icon": "tomo",
+	"color": "#C24444",
+	"sprite": "characters/tomo",
+	"antialiasing": true,
+	"sing_duration": 4,
+	"scale": 0.9
+}

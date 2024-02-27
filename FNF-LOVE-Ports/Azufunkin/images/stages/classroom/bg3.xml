@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bg3.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bgchars30000" x="0" y="0" width="465" height="633"/>
+	<SubTexture name="bgchars30001" x="0" y="0" width="465" height="633"/>
+	<SubTexture name="bgchars30002" x="480" y="0" width="465" height="633"/>
+	<SubTexture name="bgchars30003" x="480" y="0" width="465" height="633"/>
+	<SubTexture name="bgchars30004" x="960" y="0" width="465" height="633"/>
+	<SubTexture name="bgchars30005" x="960" y="0" width="465" height="633"/>
+	<SubTexture name="bgchars30006" x="1440" y="0" width="465" height="633"/>
+	<SubTexture name="bgchars30007" x="1440" y="0" width="465" height="633"/>
+	<SubTexture name="bgchars30008" x="0" y="648" width="465" height="633"/>
+	<SubTexture name="bgchars30009" x="0" y="648" width="465" height="633"/>
+	<SubTexture name="bgchars30010" x="0" y="648" width="465" height="633"/>
+	<SubTexture name="bgchars30011" x="0" y="648" width="465" height="633"/>
+	<SubTexture name="bgchars30012" x="0" y="648" width="465" height="633"/>
+	<SubTexture name="bgchars30013" x="0" y="648" width="465" height="633"/>
+	<SubTexture name="bgchars30014" x="0" y="648" width="465" height="633"/>
+</TextureAtlas>

@@ -1,0 +1,19 @@
+{
+	"animations": [
+		["idle", "kagura idle", [], 24, false, [0, 0]],
+		["singLEFT", "left", [], 24, false, [-11, -75]],
+		["singDOWN", "down", [], 24, false, [10, -129]],
+		["singUP", "up", [], 24, false, [-11, -3]],
+		["singRIGHT", "right", [], 24, false, [-16, -67]],
+		["laugh", "ha", [], 24, false, [-4, 5]]
+	],
+	"position": [20, 150],
+	"camera_points": [20, 60],
+	"flip_x": false,
+	"icon": "kagura",
+	"color": "#1568C8",
+	"sprite": "characters/kracgura",
+	"antialiasing": true,
+	"sing_duration": 4,
+	"scale": 0.9
+}

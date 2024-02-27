@@ -1,0 +1,18 @@
+{
+	"animations": [
+		["idle", "osakalt idle", [], 24, false, [0, 0]],
+		["singLEFT", "osakalt left", [], 24, false, [28, -24]],
+		["singDOWN", "osakalt down", [], 24, false, [61, -39]],
+		["singUP", "osakalt up", [], 24, false, [24, 12]],
+		["singRIGHT", "osakalt right", [], 24, false, [-5, -11]]
+	],
+	"position": [80, 90],
+	"camera_points": [0, 60],
+	"flip_x": false,
+	"icon": "osakalt",
+	"color": "#E4A4C4",
+	"sprite": "characters/osakalt",
+    "antialiasing": true,
+	"sing_duration": 4,
+	"scale": 0.9
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Her Lullaby",
+    "bpm": 150,
+    "icon": "osakalt",
+	"color": "#E4A4C4",
+    "difficulties": [
+        "Normal"
+    ]
+}

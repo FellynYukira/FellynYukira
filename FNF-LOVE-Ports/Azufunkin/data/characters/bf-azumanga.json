@@ -1,0 +1,18 @@
+{
+	"animations": [
+		["idle", "idle", [], 24, false, [0, 0]],
+		["singLEFT", "left", [], 24, false, [3, -1]],
+		["singDOWN", "down", [], 24, false, [-30, -67]],
+		["singUP", "up", [], 24, false, [-32, 35]],
+		["singRIGHT", "right", [], 24, false, [-86, -4]]
+	],
+	"position": [120, 180],
+	"camera_points": [-30, 3],
+	"flip_x": true,
+	"icon": "bf-azumanga",
+	"color": "#31B0D1",
+	"sprite": "characters/bfazumanga",
+	"antialiasing": true,
+	"sing_duration": 4,
+	"scale": 1.1
+}

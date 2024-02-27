@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="chichispeaker.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="chichispeak0000" x="0" y="0" width="233" height="442"/>
+	<SubTexture name="chichispeak0001" x="0" y="0" width="233" height="442"/>
+	<SubTexture name="chichispeak0002" x="248" y="0" width="233" height="442"/>
+	<SubTexture name="chichispeak0003" x="248" y="0" width="233" height="442"/>
+	<SubTexture name="chichispeak0004" x="496" y="0" width="233" height="442"/>
+	<SubTexture name="chichispeak0005" x="496" y="0" width="233" height="442"/>
+	<SubTexture name="chichispeak0006" x="744" y="0" width="233" height="442"/>
+	<SubTexture name="chichispeak0007" x="744" y="0" width="233" height="442"/>
+	<SubTexture name="chichispeak0008" x="744" y="0" width="233" height="442"/>
+	<SubTexture name="chichispeak0009" x="744" y="0" width="233" height="442"/>
+	<SubTexture name="chichispeak0010" x="744" y="0" width="233" height="442"/>
+	<SubTexture name="chichispeak0011" x="744" y="0" width="233" height="442"/>
+	<SubTexture name="chichispeak0012" x="744" y="0" width="233" height="442"/>
+</TextureAtlas>

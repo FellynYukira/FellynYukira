@@ -1,0 +1,9 @@
+{
+    "name": "Wildcat",
+    "bpm": 160,
+    "icon": "tomo",
+	"color": "#C24444",
+    "difficulties": [
+        "Normal"
+    ]
+}
