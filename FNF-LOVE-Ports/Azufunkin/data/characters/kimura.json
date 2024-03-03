@@ -1,0 +1,22 @@
+{
+	"animations": [
+		["idle", "idle", [], 24, false, [0, 0]],
+		["singLEFT", "left", [], 24, false, [40, 0]],
+		["singDOWN", "down", [], 24, false, [4, -1]],
+		["singUP", "up", [], 24, false, [20, 27]],
+		["singRIGHT", "right", [], 24, false, [-3, -1]],
+        ["singLEFT-alt", "altleft", [], 24, false, [7, -17]],
+		["singDOWN-alt", "altdown", [], 24, false, [36, -16]],
+		["singUP-alt", "altup", [], 24, false, [16, 28]],
+		["singRIGHT-alt", "altright", [], 24, false, [17, 0]]
+	],
+	"position": [80, 90],
+	"camera_points": [0, 60],
+	"flip_x": false,
+	"icon": "kimura",
+	"color": "#A3BDCB",
+	"sprite": "characters/kimura",
+    "antialiasing": true,
+	"sing_duration": 4,
+	"scale": 1.5
+}

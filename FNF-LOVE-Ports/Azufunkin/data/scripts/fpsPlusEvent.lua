@@ -65,8 +65,20 @@ function executeEvent(event)
             local tweenEase = getTweenEase(event.params[3])
             Timer.tween(duration, game.camera, {zoom = zoomChange}, tweenEase)
             Timer.tween(duration, state.stage, {camZoom = zoomChange}, tweenEase)
+        end,
+        ["playAnim"] = function()
+            switch(event.params[1], {
+                ["dad"] = function() state.dad:playAnim(event.params[2]) end,
+                ["gf"] = function() state.gf:playAnim(event.params[2]) end,
+                default = function() state.boyfriend:playAnim(event.params[2]) end
+            })
+        end,
+        ["angle"] = function()
+            game.camera.angle = tonumber(event.params[1])
+            Timer.tween(0.4, game.camera, {angle = 0}, 'out-circ')
         end
     })
+    state.scripts:call("onEvent", event)
 end
 
 function getTweenEase(ease)

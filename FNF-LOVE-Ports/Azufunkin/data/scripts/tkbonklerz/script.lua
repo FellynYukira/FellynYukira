@@ -1,4 +1,3 @@
-
 local tomo
 local kagura
 
@@ -46,6 +45,22 @@ end
 function beat()
     tomo:beat(curBeat)
     kagura:beat(curBeat)
+
+    if curBeat == 276 then
+        tomo.x = tomo.x - 30
+        tomo.alpha = 0.000001
+        Timer.tween(0.7, tomo, {x = tomo.x + 30, alpha = 1}, 'out-sine')
+    end
+    if curBeat == 805 then
+        for _, spr in ipairs({tomo, kagura}) do
+            spr.color = Color.BLACK
+        end
+    end
+    if curBeat == 836 then
+        for _, spr in ipairs({tomo, kagura}) do
+            spr.color = Color.WHITE
+        end
+    end
 end
 
 function onNoteHit(event)
@@ -61,6 +76,24 @@ function onNoteHit(event)
         if event.note.type == "kagLaugh" then
             kagura:playAnim('laugh', true)
             kagura.lastHit = PlayState.conductor.time
+        end
+    end
+end
+
+function onEvent(event)
+    if event.name == "disappear" then
+        if event.params[1] == "tomo" then
+            tomo.visible = false
+        end
+        if event.params[1] == "kracgura" then
+            kagura.visible = false
+        end
+    elseif event.name == "appear" then
+        if event.params[1] == "tomo" then
+            tomo.visible = true
+        end
+        if event.params[1] == "kracgura" then
+            kagura.visible = true
         end
     end
 end

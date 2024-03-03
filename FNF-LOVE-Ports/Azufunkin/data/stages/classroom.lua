@@ -1,5 +1,7 @@
+local bg
 local chichi
 local bgYukari
+local desks
 local bg1
 local bg2
 local bg3
@@ -14,7 +16,7 @@ function create()
 
     self.ratingPos = {x = -480, y = 450}
 
-    local bg = Sprite(-958, -95):loadTexture(paths.getImage(SCRIPT_PATH .. "bg"))
+    bg = Sprite(-958, -95):loadTexture(paths.getImage(SCRIPT_PATH .. "bg"))
     bg.scale = {x = 1.35, y = 1.35}
     self:add(bg)
 
@@ -32,7 +34,7 @@ function create()
     chichi.scale = {x = 0.55, y = 0.55}
     self:add(chichi)
 
-    local desks = Sprite(-1065, -24):loadTexture(paths.getImage(SCRIPT_PATH .. "desks"))
+    desks = Sprite(-1065, -24):loadTexture(paths.getImage(SCRIPT_PATH .. "desks"))
     desks.scale = {x = 1.35, y = 1.35}
     desks:setScrollFactor(1.35, 1.35)
     self:add(desks, true)
@@ -84,5 +86,44 @@ function beat()
         bg1:play('bop', true)
         bg2:play('bop', true)
         bg3:play('bop', true)
+    end
+
+    if paths.formatToSongPath(PlayState.SONG.song) == 'tkbonklerz' then
+        if curBeat == 410 or curBeat == 740 then
+            for _, spr in ipairs({bg, chichi, desks, bg1, bg2, bg3}) do
+                Timer.tween(1, spr.color, {[1] = 0.4, [2] = 0.4, [3] = 0.4})
+            end
+        end
+        if curBeat == 472 or curBeat == 772 then
+            for _, spr in ipairs({bg, chichi, desks, bg1, bg2, bg3}) do
+                Timer.tween(1, spr.color, {[1] = 1, [2] = 1, [3] = 1})
+            end
+        end
+        if curBeat == 805 then
+            for _, spr in ipairs({bg, chichi, desks, bg1, bg2, bg3, state.gf}) do
+                spr.visible = false
+            end
+
+            game.camera.bgColor = {1, 1, 1, 1}
+
+            for _, spr in ipairs({state.dad, state.boyfriend}) do
+                spr.color = Color.BLACK
+            end
+        end
+        if curBeat == 836 then
+            for _, spr in ipairs({bg, chichi, desks, bg1, bg2, bg3, state.gf}) do
+                spr.visible = true
+            end
+
+            for _, spr in ipairs({bg, chichi, desks, bg1, bg2, bg3}) do
+                spr.color = {0.4, 0.4, 0.4}
+            end
+
+            game.camera.bgColor = {0, 0, 0, 1}
+
+            for _, spr in ipairs({state.dad, state.boyfriend}) do
+                spr.color = Color.WHITE
+            end
+        end
     end
 end

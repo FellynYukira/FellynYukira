@@ -1,0 +1,18 @@
+{
+	"animations": [
+		["idle", "idle", [], 24, false, [0, 0]],
+		["singLEFT", "left", [], 24, false, [0, 0]],
+		["singDOWN", "down", [], 24, false, [0, 0]],
+		["singUP", "up", [], 24, false, [0, 0]],
+		["singRIGHT", "right", [], 24, false, [0, 0]]
+	],
+	"position": [80, 90],
+	"camera_points": [0, 60],
+	"flip_x": true,
+	"icon": "kaorin",
+	"color": "#DAA5B2",
+	"sprite": "characters/kaorin",
+    "antialiasing": true,
+	"sing_duration": 4,
+	"scale": 1.6
+}

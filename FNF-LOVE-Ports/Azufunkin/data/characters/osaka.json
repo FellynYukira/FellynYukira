@@ -1,0 +1,19 @@
+{
+	"animations": [
+		["idle", "idle", [], 24, false, [0, 0]],
+		["singLEFT", "left", [], 24, false, [-1, 0]],
+		["singDOWN", "down", [], 24, false, [-1, 0]],
+		["singUP", "up", [], 24, false, [-1, 0]],
+		["singRIGHT", "Right", [], 24, false, [-1, 0]],
+        ["exe", "AYUMU KASUGA.exe", [], 24, false, [-1, 0]]
+	],
+	"position": [80, 90],
+	"camera_points": [0, 60],
+	"flip_x": false,
+	"icon": "osaka",
+	"color": "#F6F1EC",
+	"sprite": "characters/osaka",
+    "antialiasing": true,
+	"sing_duration": 4,
+	"scale": 1
+}

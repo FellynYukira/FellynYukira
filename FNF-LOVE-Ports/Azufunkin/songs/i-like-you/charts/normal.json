@@ -4997,11 +4997,11 @@
 			}
 		],
 		"song": "i-like-you",
-		"stage": "KimuraClass",
+		"stage": "kimura-class",
 		"needsVoices": true,
 		"validScore": true,
 		"speed": 3.3,
 		"bpm": 140,
-		"gf": "gf"
+		"gfVersion": "gf"
 	}
 }

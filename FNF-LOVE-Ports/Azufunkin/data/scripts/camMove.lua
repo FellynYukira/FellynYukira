@@ -44,6 +44,6 @@ function onNoteHit(event)
 				camOffset.y = 0
 			end
 		})
-		resetTimer = 0.15
+		resetTimer = 0.5
 	end
 end
