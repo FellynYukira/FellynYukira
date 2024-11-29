@@ -1,5 +1,7 @@
 ## HIII!! IT'S ME YUKIRA XD
 
+![](https://media.tenor.com/z88st-CKXoUAAAAM/chika-yeah.gif)
+
 ### i do some stuff (mostly fnf!!)
 
 ### btw i made some fnf-love mod port :3
